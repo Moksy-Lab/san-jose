@@ -9,13 +9,14 @@
         --error-color: #EA0000;
         --main-background-color : #f8f9fa;
         --light-background-color : #fbfbfb;
-        --default-font : Roboto, sans-serif;
-        --primary-font : Roboto Condensed, sans-serif;
-        --secondary-font : Roboto, sans-serif;
+        --default-font : Lato, sans-serif;
+        --primary-font : Lato, sans-serif;
+        --secondary-font : Lato, sans-serif;
         --default-font-size: 16px;
     }
     
     /* Typography Starts here */
+    @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
     *,
     html,
     body {
@@ -220,3 +221,21 @@
         border: 1px solid rgb(0, 0, 0);
     }
 /* #anku(hacb58594e7) #css ends  */
+
+/* #adnu(ab8dfbbd4bed) #css starts  */
+.aboutab8dfbbd4bed .Explore{
+    background-color: black;
+       color: #ffffff;
+       padding: 15px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10px
+}
+.aboutab8dfbbd4bed .description{
+    font-size: 40px;
+    color: #000000;
+    font-weight: 700
+}
+.aboutab8dfbbd4bed .para{
+        font-size: 18px
+}
+/* #adnu(ab8dfbbd4bed) #css ends  */
