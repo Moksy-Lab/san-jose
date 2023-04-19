@@ -181,6 +181,7 @@
 /* #anku(hacb58594e7) #css starts  */
 .abouthacb58594e7{
     background-color: #FF303A;
+    margin-top: -5px;
 }
 .abouthacb58594e7 .jumbotron{
     background-color: #FF303A;
@@ -220,9 +221,25 @@
     .abouthacb58594e7 .teacher:hover{
         border: 1px solid rgb(0, 0, 0);
     }
+     /* Media Query for low resolution  Tablets, Ipads */
+     @media (min-width: 481px) and (max-width: 767px) {
+        .abouthacb58594e7 .teacher{
+            margin-top: 15px;
+        }
+    }
+      
+    /* Media Query for Tablets Ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 1024px){
+        .abouthacb58594e7 .teacher{
+            margin-top: 15px;
+        }
+    }
 /* #anku(hacb58594e7) #css ends  */
 
 /* #adnu(ab8dfbbd4bed) #css starts  */
+.aboutab8dfbbd4bed{
+    margin-top: 80px
+}
 .aboutab8dfbbd4bed .Explore{
     background-color: black;
        color: #ffffff;
